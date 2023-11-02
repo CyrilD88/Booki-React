@@ -1,9 +1,10 @@
 import React from 'react';
+import Logo from '../assets/Booki.png'
 
 const Navbar = () => {
     return (
         <div>
-            <p>hello</p>
+            <img src={Logo} alt="logo_de_Booki"/>
         </div>
     );
 };
