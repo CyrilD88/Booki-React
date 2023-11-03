@@ -12,10 +12,10 @@ const Navbar = () => {
         </div>
          <div className="navbar__links">
          {/* <Link to="/"> */}
-         <p>Hébergements</p>
+         <p className='hebergement'>Hébergements</p>
          {/* </Link>
          <Link to="/About"> */}
-         <p>Activités</p>
+         <p className='activités'>Activités</p>
          {/* </Link> */}
        </div>
         </nav>
