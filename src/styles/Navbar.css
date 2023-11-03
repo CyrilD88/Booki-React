@@ -2,31 +2,47 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 1rem;
-    margin:10px;
+    /* padding: 0 1rem;
+    margin:10px; */
 }
 
 .navbar__img{
     width: 4rem;
+    padding: 0 1rem;
 }
 
 .navbar__links{
     width: 30%;
     display: flex;
     justify-content: space-around;
+    
    
 }
 .hebergement{
+    padding-top: 0.8rem;
     border-top: transparent 3px solid;
+    font-weight: 600;
+    font-size: 1rem;
+    
 }
 .hebergement:hover{
     cursor: pointer;
     color: #106ffc;
     border-top: #106ffc 3px solid;
+ 
+   
+}
 
+.activités{
+    padding-top: 0.8rem;
+    border-top: transparent 3px solid;
+    font-weight: 600;
+    font-size: 1rem;
+    
 }
 
 .activités:hover{
     cursor: pointer;
     color: #106ffc;
+    border-top: #106ffc 3px solid;
 }
