@@ -1,11 +1,9 @@
 import React from 'react';
-// import FirstSect from "../components/FirstSection"
+import FirstSect from "../components/FirstSection"
 
 const Home = () => {
     return (
-        <div>
-        <p>yo</p>
-        </div>
+      <FirstSect />
     );
 };
 
