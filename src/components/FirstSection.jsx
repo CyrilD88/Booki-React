@@ -22,19 +22,19 @@ const FirstSection = () => {
                     <h2>Filtres</h2>
                    <div className='filtre'>
                     <div className='firstDiv'>
-                    <FontAwesomeIcon icon={faMoneyBill}/>
+                    <FontAwesomeIcon className='billet' icon={faMoneyBill}/>
                     <p>Economique</p>
                     </div>
                     <div className='secondDiv'>
-                    <FontAwesomeIcon icon={faPerson} />
+                    <FontAwesomeIcon className='personne' icon={faPerson} />
                     <p>Familial</p>
                     </div>
                     <div className='thirdDiv'>
-                    <FontAwesomeIcon icon={faHeart} />
+                    <FontAwesomeIcon className="coeur" icon={faHeart} />
                     <p>Romantique</p>
                     </div>
                     <div className='forthDiv'>
-                    <FontAwesomeIcon icon={faFire} />
+                    <FontAwesomeIcon className='feu' icon={faFire} />
                     <p>Nos pépites</p>
                     </div>
                    </div>
