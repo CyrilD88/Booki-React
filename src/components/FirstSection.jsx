@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHouse} from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHouse, faLocationDot} from '@fortawesome/free-solid-svg-icons'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 
@@ -12,10 +12,11 @@ const FirstSection = () => {
             <FontAwesomeIcon icon={faEnvelope} />
             <FontAwesomeIcon icon={faTwitter} />
             <FontAwesomeIcon icon={faHouse} />
+            
 
             <p>En plein centre-ville ou en pleine nature</p>
             <form method="post" action="#">               
-                     <i class="fa-solid fa-location-dot"></i>
+            <FontAwesomeIcon icon={faLocationDot} />
                      <input type="text"  placeholder="Marseille, France"/>     
                           
                     <button><span>Rechercher</span>                                
