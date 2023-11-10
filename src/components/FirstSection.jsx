@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLocationDot, faMoneyBill, faPerson, faHeart, faFire} from '@fortawesome/free-solid-svg-icons'
+import { faLocationDot, faMoneyBill, faPerson, faHeart, faFire,faInfo} from '@fortawesome/free-solid-svg-icons'
 
 import '../styles/FirstSection.css'
 
@@ -41,7 +41,10 @@ const FirstSection = () => {
                        
                  
                 </div>
+                <div className='headerBottom'>
+                <FontAwesomeIcon icon={faInfo} />
                 <p className='description'>Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
         </div>
     );
 };
