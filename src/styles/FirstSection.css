@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
 .divFiltre{
     display: flex;
     align-items: center;
@@ -6,6 +8,11 @@
     margin-top: 2.31rem;
 }
 
+h1{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
 .filtre{
     display: flex;
     gap: 15px;
