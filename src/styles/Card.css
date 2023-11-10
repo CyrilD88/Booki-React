@@ -21,6 +21,30 @@
     border: 5px solid #FFF;
 }
 
+.Logement h3{
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Logements p{
+    font-family: Raleway;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+
+.LogementDiv{
+    display: flex;
+padding: 0rem 0.9375rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+align-self: stretch;
+}
 .span1 {
     color: #0065FC;
 
