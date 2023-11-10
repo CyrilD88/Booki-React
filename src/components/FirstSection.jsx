@@ -44,7 +44,7 @@ const FirstSection = () => {
                  
              </div>
             <div className='headerBottom'>
-                <FontAwesomeIcon icon={faInfo} />
+                <FontAwesomeIcon className='headerBottomIcon' icon={faInfo} />
                 <p className='description'>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
         </div>
