@@ -1,8 +1,8 @@
 .LogementCard{
-display: flex;
-justify-content: space-evenly;
-flex-wrap: wrap;
-gap: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
  
 }
 
@@ -18,16 +18,17 @@ gap: 10px;
     height: 7.75rem;
     object-fit: cover;
     border-radius: 1.25rem 1.25rem 0rem 0rem;
-border: 5px solid #FFF;
+    border: 5px solid #FFF;
+}
+
+.span1 {
+    color: #0065FC;
+
+}
+
+.span2 {
+    color: #E3E3E3;
 }
 
 
-
-
-/* 
-display: flex;
-flex-wrap: wrap;
-height: auto;
-width: 100%;
-gap: 1.8rem; */
 
