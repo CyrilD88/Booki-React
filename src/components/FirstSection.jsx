@@ -12,13 +12,15 @@ const FirstSection = () => {
         <div className='divHeader'>
             <h1>Trouvez un hébergement pour des vacances de rêve</h1>
             <p>En plein centre-ville ou en pleine nature</p>
-            <form method="post" action="#">               
-            <FontAwesomeIcon icon={faLocationDot} />
+            <div className='divRecherche'>
+                <form method="post" action="#">               
+                    <FontAwesomeIcon className='location' icon={faLocationDot} />
                      <input type="text"  placeholder="Marseille, France"/>     
                     <button><span>Rechercher</span>                                
                     </button>
                 </form>
-                <div className='divFiltre'>
+            </div>
+            <div className='divFiltre'>
                     <h2>Filtres</h2>
                    <div className='filtre'>
                     <div className='firstDiv'>
@@ -40,11 +42,11 @@ const FirstSection = () => {
                    </div>
                        
                  
-                </div>
-                <div className='headerBottom'>
+             </div>
+            <div className='headerBottom'>
                 <FontAwesomeIcon icon={faInfo} />
                 <p className='description'>Plus de 500 logements sont disponibles dans cette ville</p>
-                </div>
+            </div>
         </div>
     );
 };
