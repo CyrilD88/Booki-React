@@ -12,6 +12,11 @@ h1{
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
+    font-family: "Raleway", sans-serif;
+}
+
+.divHeader{
+    margin-top: 1.88rem;
 }
 .filtre{
     display: flex;

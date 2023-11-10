@@ -9,7 +9,7 @@ import '../styles/FirstSection.css'
 
 const FirstSection = () => {
     return (
-        <div>
+        <div className='divHeader'>
             <h1>Trouvez un hébergement pour des vacances de rêve</h1>
             <p>En plein centre-ville ou en pleine nature</p>
             <form method="post" action="#">               
