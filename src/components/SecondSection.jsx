@@ -1,9 +1,17 @@
 import React from 'react';
+import CardLogement from "./Card.jsx"
+import '../styles/SecondSection.css'
 
 const SecondSection = () => {
     return (
-        <div>
-            <p>hello</p>
+        <div className='hebergements'>
+            <div className='premiereSection'>
+                 <h2>Hébergements à Marseille</h2>
+                 <CardLogement />
+            </div>
+            <div className='secondSection'>
+                <h2>Les plus populaires</h2>
+            </div>
         </div>
     );
 };
