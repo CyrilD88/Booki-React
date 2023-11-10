@@ -1,5 +1,6 @@
 import React from 'react';
 import CardLogement from "./Card.jsx"
+import SecondCardLogement from "./SecondCard.jsx"
 import '../styles/SecondSection.css'
 
 const SecondSection = () => {
@@ -12,6 +13,7 @@ const SecondSection = () => {
             </div>
             <div className='secondSection'>
                 <h2>Les plus populaires</h2>
+                <SecondCardLogement />
             </div>
         </div>
     );
