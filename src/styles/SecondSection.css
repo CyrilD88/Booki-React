@@ -1,5 +1,21 @@
 .hebergements{
     display: flex;
     margin-top: 2.19rem;
+    width: 100%;
+    height: auto;
 }
 
+.premiereSection{
+   
+    width: auto;
+    height: auto;
+    background-color: #F2F2F2;
+    margin-right: 2.5rem;
+}
+
+
+.secondSection{
+    width: 23rem;
+    height: 35rem;
+    background-color: bisque;
+}

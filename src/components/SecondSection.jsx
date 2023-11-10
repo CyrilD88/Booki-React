@@ -8,6 +8,7 @@ const SecondSection = () => {
             <div className='premiereSection'>
                  <h2>Hébergements à Marseille</h2>
                  <CardLogement />
+                 <h2>Afficher plus</h2>
             </div>
             <div className='secondSection'>
                 <h2>Les plus populaires</h2>
