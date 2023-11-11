@@ -8,7 +8,7 @@ const SecondCard = () => {
         <div className='LogementCard'>
         {Data.map((apart) => {
     const { id, cover, title, description } = apart;
-
+// test
   // affichage de la description pour l'appartement sur la page d'accueil
     return (
         <div className="Logement" key={id}>
