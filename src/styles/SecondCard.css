@@ -4,6 +4,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 10px;
+    margin: 1.88rem 0;
  
 }
 
@@ -23,7 +24,7 @@
     border: 5px solid #FFF;
 }
 
-.Logement h3{
+.LogementTwo h3{
     font-family: Raleway;
     font-size: 1rem;
     font-style: normal;
@@ -31,7 +32,7 @@
     line-height: normal;
 }
 
-.Logements p{
+.LogementTwo p{
     font-family: Raleway;
     font-size: 0.875rem;
     font-style: normal;
@@ -39,13 +40,14 @@
     line-height: normal;
     }
 
-.LogementDiv{
+.LogementDivTwo{
     display: flex;
-padding: 0rem 0.9375rem;
-flex-direction: column;
-align-items: flex-start;
-gap: 0.5rem;
-align-self: stretch;
+    padding: 0.62rem 0.9375rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+    justify-content: space-between;
 }
 .span1 {
     color: #0065FC;

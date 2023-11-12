@@ -13,10 +13,11 @@
     background-color: #F2F2F2;
     margin-right: 2.5rem;
     border-radius: 0.9375rem;
+    padding: 1.88rem;
 }
 
 .premiereSection h2{
-    padding: 1.875rem;
+   
     font-family: Raleway;
     font-size: 1.375rem;
     font-style: normal;
@@ -26,14 +27,15 @@
 
 
 .secondSection{
-    width: 23rem;
-    height: 35rem;
+    width: auto;
+    height: auto;
     background-color: bisque;
     border-radius: 0.9375rem;
+    padding: 1.88rem;
 }
 
 .secondSection h2{
-    padding: 1.875rem;
+   
     font-family: Raleway;
     font-size: 1.375rem;
     font-style: normal;
