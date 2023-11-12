@@ -11,18 +11,9 @@ const ActivityCard = () => {
       // affichage de la description pour l'appartement sur la page d'accueil
         return (
             <div className="ActivityLogement" key={id}>
-                <img src={cover} alt={title} />
                     <div className='ActivityLogementDiv'>
-                    <h3>{title}</h3>
-                  
-                    {/* <div className='stars'>
-                        {
-                            arrayStars.map(element => {
-                                const nbreEtoiles = parseInt(record.rating);
-                                return(<span key={element} className={element <= nbreEtoiles ? 'span1' : 'span2'}><FontAwesomeIcon icon={faStar} /></span>)
-                            })
-                        }
-                    </div> */}
+                        <img src={cover} alt={title} />
+                        <h3>{title}</h3>
                     </div>
             </div>
         )
