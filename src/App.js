@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "./layout/Navbar";
 import Outlet from "./Chemin";
+import Footer from "./layout/Footer";
 import "./App.css";
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
     <div className="App">
       <Nav />
       <Outlet />
+      <Footer />
     </div>
   );
 };
