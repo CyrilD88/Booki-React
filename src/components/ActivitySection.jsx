@@ -1,4 +1,5 @@
 import React from 'react';
+import ActivityCard from './ActivityCard';
 
 const ActivitySection = () => {
     return (
@@ -6,7 +7,7 @@ const ActivitySection = () => {
            <div className='activitySection'>
                 <h2>Activités à Marseille</h2>
                 <div className='activitySectionOne'>
-                    <p>hello</p>
+                    <ActivityCard/>
                 </div>
            </div>
         </div>
