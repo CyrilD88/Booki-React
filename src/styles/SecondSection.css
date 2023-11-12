@@ -12,6 +12,7 @@
     height: auto;
     background-color: #F2F2F2;
     margin-right: 2.5rem;
+    border-radius: 0.9375rem;
 }
 
 .premiereSection h2{
@@ -28,4 +29,14 @@
     width: 23rem;
     height: 35rem;
     background-color: bisque;
+    border-radius: 0.9375rem;
+}
+
+.secondSection h2{
+    padding: 1.875rem;
+    font-family: Raleway;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }

@@ -1,17 +1,18 @@
 import React from 'react';
 import Data from "../bookiPop.json"
+import "../styles/SecondCard.css"
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faStar } from '@fortawesome/free-solid-svg-icons'
 
 const SecondCard = () => {
     return (
-        <div className='LogementCard'>
+        <div className='LogementCardTwo'>
         {Data.map((apart) => {
     const { id, cover, title, description } = apart;
 // test
   // affichage de la description pour l'appartement sur la page d'accueil
     return (
-        <div className="Logement" key={id}>
+        <div className="LogementTwo" key={id}>
             <img src={cover} alt={title} />
                 <div className='LogementDiv'>
                     <h3>{title}</h3>
