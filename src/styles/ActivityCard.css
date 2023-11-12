@@ -31,5 +31,7 @@
     border-bottom-left-radius: 1.25rem;
 }
 
-
-
+/* ============================ Hover ====================== */
+.ActivityLogementDiv{
+    cursor: pointer;
+}
