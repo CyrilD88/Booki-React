@@ -43,3 +43,10 @@
     padding: 1.25rem;
     gap: 0.9375rem;
 }
+
+
+/* ===================================== Hover =========================== */
+
+.FooterDiv p:hover{
+    cursor: pointer;
+}
