@@ -26,6 +26,7 @@
 .activityCard{
     display: flex;
     align-items: flex-start;
+    justify-content: space-around;
     gap: 1.88rem;
     border-bottom-right-radius: 1.25rem;
     border-bottom-left-radius: 1.25rem;

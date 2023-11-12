@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+.FooterDiv{
+    width: 83.75rem;
+    height: 10.18rem;
+    display: flex;
+    background-color: #F2F2F2;
+    margin-top: 2.18rem;
+}
+
+.FooterDiv h3{
+    font-family: Raleway;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.FooterFirstDiv{
+    display: flex;
+    flex-direction: column;
+    width: 27.91rem;
+    height: 10.18rem;
+    padding: 1.25rem;
+    gap: 0.9375rem;
+}
+
+.FooterSecondDiv{
+    display: flex;
+    flex-direction: column;
+    width: 27.91rem;
+    height: 10.18rem;
+    padding: 1.25rem;
+    gap: 0.9375rem;
+}
+
+.FooterThirdDiv{
+    display: flex;
+    flex-direction: column;
+    width: 27.91rem;
+    height: 10.18rem;
+    padding: 1.25rem;
+    gap: 0.9375rem;
+}
