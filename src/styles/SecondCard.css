@@ -68,7 +68,12 @@
     .LogementCardTwo{
         display: flex;
         flex-direction: row;
+        flex-wrap: nowrap;
         
+    }
+    .LogementTwo{
+        width: 17.2rem;
+        height: 9.13rem;
     }
   
     }
