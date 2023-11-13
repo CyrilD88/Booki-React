@@ -42,3 +42,18 @@
     font-weight: 700;
     line-height: normal;
 }
+
+
+/* ========================== média quéries tablette =================== */
+
+@media screen and (min-width:768px) and (max-width:1024px){
+.hebergements{
+    display: flex;
+    flex-direction: column;
+    
+}
+.premiereSection{
+    margin-right: 0;
+    margin-bottom: 3.12rem;
+}
+}
